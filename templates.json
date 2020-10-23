@@ -209,6 +209,11 @@
       "id": "verify-dashboard",
       "name": "Verify Testing Dashboard",
       "description": "Helpful dashboard for testing and debugging during your development with Twilio Verify."
+    },
+    {
+      "id": "single-party-recordings",
+      "name": "Single Party Recordings",
+      "description": "Provides examples of using various Recording techniques"
     }
   ]
 }

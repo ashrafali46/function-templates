@@ -1,0 +1,7 @@
+{
+  "name": "single-party-recordings",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "twilio": "^3.50.0"
+  }
+}
