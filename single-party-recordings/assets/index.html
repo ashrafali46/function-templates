@@ -6,11 +6,15 @@
   <title>Recordings Explorer</title>
 </head>
 <body>
-  <form action="/results" method="POST">
+  <form action="/create-calls" method="POST">
+    <input id="hostname" type="hidden" name="HostName" />
     <label>Phone numbers (separated by commas)
-      <input name="numbers" placeholder="+15553332222,+15551112222">
+      <input name="Numbers" placeholder="+15553332222,+15551112222">
     </label>
     <button type="submit">Make calls</button>
   </form>
 </body>
+<script>
+  const el = document.getElementById("hostname").value = window.location.hostname;
+</script>
 </html>
