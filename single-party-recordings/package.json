@@ -3,5 +3,8 @@
   "dependencies": {
     "handlebars": "^4.7.6",
     "twilio": "^3.50.0"
+  },
+  "devDependencies": {
+    "configure-env": "^2.0.0-0"
   }
 }
